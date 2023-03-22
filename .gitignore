@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+
+#macOS
+.DS_Store
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Goland
+.idea/
+
+# Production
+ogen-*
+datadir*
+coverage*
+*_test.dat
+db/blocks
+vendor/
+__debug_bin
+release/
+*.tar.gz
+
+# IDE
+.vscode
+
+# Testing
+*.log
+**/*.b64
+tx.db
+chain/index/*.db
+internal/chainrpc/cert/
+internal/wallet/wallets/
+keystore/*.db
+peers/*.db
+data-node/
+
+# Integration
+data/
+data_*/
+
+# Certificates
+certs/
+
+# Binaries
+ogen
+!ogen/
+test.db
