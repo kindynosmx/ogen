@@ -2,10 +2,10 @@ package primitives
 
 import (
 	"errors"
-	"github.com/olympus-protocol/ogen/pkg/bls/common"
+	"github.com/eabz/ogen/pkg/bls/common"
 
-	"github.com/olympus-protocol/ogen/pkg/bls"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/bls"
+	"github.com/eabz/ogen/pkg/chainhash"
 )
 
 var (

@@ -10,17 +10,17 @@ import (
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-core/protocol"
-	"github.com/olympus-protocol/ogen/pkg/params"
+	"github.com/eabz/ogen/pkg/params"
 	"sync"
 	"time"
 
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p-peerstore/pstoreds"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/internal/chain"
-	"github.com/olympus-protocol/ogen/pkg/logger"
-	"github.com/olympus-protocol/ogen/pkg/p2p"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/internal/chain"
+	"github.com/eabz/ogen/pkg/logger"
+	"github.com/eabz/ogen/pkg/p2p"
 	"path"
 )
 

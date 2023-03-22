@@ -3,8 +3,8 @@ package kilic_test
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/olympus-protocol/ogen/pkg/bls"
-	"github.com/olympus-protocol/ogen/pkg/bls/kilic"
+	"github.com/eabz/ogen/pkg/bls"
+	"github.com/eabz/ogen/pkg/bls/kilic"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -1,8 +1,8 @@
 package hdwallet_test
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/bip39"
-	"github.com/olympus-protocol/ogen/pkg/hdwallet"
+	"github.com/eabz/ogen/pkg/bip39"
+	"github.com/eabz/ogen/pkg/hdwallet"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

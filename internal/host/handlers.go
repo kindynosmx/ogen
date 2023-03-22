@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/olympus-protocol/ogen/pkg/p2p"
+	"github.com/eabz/ogen/pkg/p2p"
 	"io"
 	"strings"
 )

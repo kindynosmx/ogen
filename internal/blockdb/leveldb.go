@@ -1,11 +1,11 @@
 package blockdb
 
 import (
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/internal/state"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
-	"github.com/olympus-protocol/ogen/pkg/logger"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/internal/state"
+	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/logger"
+	"github.com/eabz/ogen/pkg/primitives"
 	"github.com/syndtr/goleveldb/leveldb/filter"
 	"sync"
 	"time"

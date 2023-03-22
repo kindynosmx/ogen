@@ -1,6 +1,6 @@
 # Ogen integration/staging tree
 
-![Actions](https://github.com/eabz/ogen/workflows/Ogen/badge.svg)
+![Actions](https://github.com/eabz/ogen/workflows/test.yml/badge.svg)
 [![Go Report](https://goreportcard.com/badge/github.com/eabz/ogen)](https://goreportcard.com/report/github.com/eabz/ogen)
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/eabz/ogen?tab=doc)](https://pkg.go.dev/github.com/eabz/ogen?tab=doc)
 [![codecov](https://codecov.io/gh/eabz/ogen/branch/master/graph/badge.svg)](https://codecov.io/gh/eabz/ogen)

@@ -3,16 +3,16 @@ package chain
 import (
 	"errors"
 	"fmt"
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/internal/state"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/internal/state"
 	"sync"
 
-	"github.com/olympus-protocol/ogen/internal/blockdb"
-	"github.com/olympus-protocol/ogen/internal/chainindex"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
-	"github.com/olympus-protocol/ogen/pkg/logger"
-	"github.com/olympus-protocol/ogen/pkg/params"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/internal/blockdb"
+	"github.com/eabz/ogen/internal/chainindex"
+	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/logger"
+	"github.com/eabz/ogen/pkg/params"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 type stateDerivedFromBlock struct {

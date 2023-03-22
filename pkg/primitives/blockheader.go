@@ -1,7 +1,7 @@
 package primitives
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/chainhash"
 )
 
 // BlockHeader is the container of merkle roots for the blockchain

@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/olympus-protocol/ogen/cmd/ogen/initialization"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
-	"github.com/olympus-protocol/ogen/pkg/params"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/cmd/ogen/initialization"
+	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/params"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 // ValidatorsInfo returns the state validators information.

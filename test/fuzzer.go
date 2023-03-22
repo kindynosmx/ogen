@@ -2,9 +2,9 @@ package testdata
 
 import (
 	fuzz "github.com/google/gofuzz"
-	"github.com/olympus-protocol/ogen/pkg/bitfield"
-	"github.com/olympus-protocol/ogen/pkg/bls"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/pkg/bitfield"
+	"github.com/eabz/ogen/pkg/bls"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 // FuzzBlockHeader return a slice with n BlockHeader structs.

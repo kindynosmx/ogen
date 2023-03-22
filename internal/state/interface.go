@@ -1,9 +1,9 @@
 package state
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/bls/common"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/pkg/bls/common"
+	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 type State interface {

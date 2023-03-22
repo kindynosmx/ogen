@@ -3,7 +3,7 @@ package params
 import (
 	"fmt"
 	"github.com/libp2p/go-libp2p-core/protocol"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/chainhash"
 	"math"
 )
 

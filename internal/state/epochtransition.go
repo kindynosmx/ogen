@@ -3,9 +3,9 @@ package state
 import (
 	"bytes"
 	"errors"
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/primitives"
 	"math/big"
 )
 

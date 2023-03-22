@@ -5,12 +5,12 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/pkg/bitfield"
-	"github.com/olympus-protocol/ogen/pkg/bls"
-	"github.com/olympus-protocol/ogen/pkg/bls/common"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/pkg/bitfield"
+	"github.com/eabz/ogen/pkg/bls"
+	"github.com/eabz/ogen/pkg/bls/common"
+	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 // ApplyMultiTransactionSingle applies multiple single Tx to the state

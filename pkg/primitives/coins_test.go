@@ -1,8 +1,8 @@
 package primitives_test
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/primitives"
-	"github.com/olympus-protocol/ogen/test"
+	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/eabz/ogen/test"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/olympus-protocol/ogen/pkg/bitfield"
-	"github.com/olympus-protocol/ogen/pkg/bls/common"
+	"github.com/eabz/ogen/pkg/bitfield"
+	"github.com/eabz/ogen/pkg/bls/common"
 
-	"github.com/olympus-protocol/ogen/pkg/bls"
-	"github.com/olympus-protocol/ogen/pkg/params"
+	"github.com/eabz/ogen/pkg/bls"
+	"github.com/eabz/ogen/pkg/params"
 
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/chainhash"
 )
 
 // AcceptedVoteInfo is vote data and participation for accepted votes.

@@ -1,7 +1,7 @@
 package testdata
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/params"
+	"github.com/eabz/ogen/pkg/params"
 )
 
 // TestParams network parameters for test chains.

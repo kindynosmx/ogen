@@ -1,9 +1,9 @@
 package state
 
 import (
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 // SetSlot runs a slot transition on state, mutating it.

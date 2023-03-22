@@ -1,15 +1,15 @@
 package chain
 
 import (
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/cmd/ogen/config"
 	"sync"
 	"time"
 
-	"github.com/olympus-protocol/ogen/internal/blockdb"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
-	"github.com/olympus-protocol/ogen/pkg/logger"
-	"github.com/olympus-protocol/ogen/pkg/params"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/internal/blockdb"
+	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/logger"
+	"github.com/eabz/ogen/pkg/params"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 // Blockchain is an interface for blockchain

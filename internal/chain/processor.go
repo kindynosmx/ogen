@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/olympus-protocol/ogen/internal/chainindex"
-	"github.com/olympus-protocol/ogen/pkg/bls"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/internal/chainindex"
+	"github.com/eabz/ogen/pkg/bls"
+	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 type blockRowAndValidator struct {

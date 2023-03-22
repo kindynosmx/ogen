@@ -3,7 +3,7 @@ package chain
 import (
 	"sync"
 
-	"github.com/olympus-protocol/ogen/internal/chainindex"
+	"github.com/eabz/ogen/internal/chainindex"
 )
 
 type Chain struct {

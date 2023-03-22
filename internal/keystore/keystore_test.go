@@ -1,8 +1,8 @@
 package keystore_test
 
 import (
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/internal/keystore"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/internal/keystore"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

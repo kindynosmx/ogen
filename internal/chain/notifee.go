@@ -1,9 +1,9 @@
 package chain
 
 import (
-	"github.com/olympus-protocol/ogen/internal/chainindex"
-	"github.com/olympus-protocol/ogen/internal/state"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/internal/chainindex"
+	"github.com/eabz/ogen/internal/state"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 // BlockchainNotifee is a type that is notified when something changes with the blockchain.

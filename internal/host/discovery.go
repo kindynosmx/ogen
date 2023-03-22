@@ -6,9 +6,9 @@ import (
 	"github.com/libp2p/go-libp2p-core/peer"
 	discover "github.com/libp2p/go-libp2p-discovery"
 	"github.com/multiformats/go-multiaddr"
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/pkg/logger"
-	"github.com/olympus-protocol/ogen/pkg/params"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/pkg/logger"
+	"github.com/eabz/ogen/pkg/params"
 	"time"
 
 	"github.com/libp2p/go-libp2p-kad-dht"

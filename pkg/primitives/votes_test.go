@@ -1,10 +1,10 @@
 package primitives_test
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/bitfield"
-	"github.com/olympus-protocol/ogen/pkg/bls"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
-	testdata "github.com/olympus-protocol/ogen/test"
+	"github.com/eabz/ogen/pkg/bitfield"
+	"github.com/eabz/ogen/pkg/bls"
+	"github.com/eabz/ogen/pkg/primitives"
+	testdata "github.com/eabz/ogen/test"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

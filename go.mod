@@ -1,4 +1,4 @@
-module github.com/olympus-protocol/ogen
+module github.com/eabz/ogen
 
 go 1.16
 

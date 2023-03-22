@@ -3,8 +3,8 @@ package keystore
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/pkg/bip39"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/pkg/bip39"
 	"go.etcd.io/bbolt"
 	"path"
 )

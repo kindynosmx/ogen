@@ -1,7 +1,7 @@
 package p2p
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 // MaxExits define the maximum amount a exits slice message can contain

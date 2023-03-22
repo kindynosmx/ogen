@@ -3,10 +3,10 @@ package keystore
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/olympus-protocol/ogen/pkg/bip39"
-	"github.com/olympus-protocol/ogen/pkg/bls"
-	"github.com/olympus-protocol/ogen/pkg/bls/common"
-	"github.com/olympus-protocol/ogen/pkg/hdwallet"
+	"github.com/eabz/ogen/pkg/bip39"
+	"github.com/eabz/ogen/pkg/bls"
+	"github.com/eabz/ogen/pkg/bls/common"
+	"github.com/eabz/ogen/pkg/hdwallet"
 	"go.etcd.io/bbolt"
 	"strconv"
 )

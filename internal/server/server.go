@@ -2,15 +2,15 @@ package server
 
 import (
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/olympus-protocol/ogen/cmd/ogen/config"
-	"github.com/olympus-protocol/ogen/internal/blockdb"
-	"github.com/olympus-protocol/ogen/internal/chain"
-	"github.com/olympus-protocol/ogen/internal/dashboard"
-	"github.com/olympus-protocol/ogen/internal/host"
-	"github.com/olympus-protocol/ogen/internal/keystore"
-	"github.com/olympus-protocol/ogen/internal/mempool"
-	"github.com/olympus-protocol/ogen/internal/proposer"
-	"github.com/olympus-protocol/ogen/pkg/logger"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/internal/blockdb"
+	"github.com/eabz/ogen/internal/chain"
+	"github.com/eabz/ogen/internal/dashboard"
+	"github.com/eabz/ogen/internal/host"
+	"github.com/eabz/ogen/internal/keystore"
+	"github.com/eabz/ogen/internal/mempool"
+	"github.com/eabz/ogen/internal/proposer"
+	"github.com/eabz/ogen/pkg/logger"
 	"sync"
 )
 

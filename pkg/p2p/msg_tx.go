@@ -1,7 +1,7 @@
 package p2p
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 // MsgTx is the struct of the message the is transmitted upon the network.

@@ -2,7 +2,7 @@ package kilic
 
 import (
 	"github.com/kilic/bls12-381"
-	"github.com/olympus-protocol/ogen/pkg/bls/common"
+	"github.com/eabz/ogen/pkg/bls/common"
 )
 
 // SecretKey used in the BLS signature scheme.

@@ -2,10 +2,10 @@ package chain
 
 import (
 	"errors"
-	"github.com/olympus-protocol/ogen/internal/state"
+	"github.com/eabz/ogen/internal/state"
 
-	"github.com/olympus-protocol/ogen/internal/chainindex"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/internal/chainindex"
+	"github.com/eabz/ogen/pkg/chainhash"
 )
 
 // View is a view of a certain chain in the block tree so that block processing can access valid blocks.

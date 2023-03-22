@@ -4,7 +4,7 @@ package p2p
 
 import (
 	ssz "github.com/ferranbt/fastssz"
-	"github.com/olympus-protocol/ogen/pkg/primitives"
+	"github.com/eabz/ogen/pkg/primitives"
 )
 
 // MarshalSSZ ssz marshals the MsgBlock object

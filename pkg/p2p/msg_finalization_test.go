@@ -2,7 +2,7 @@ package p2p_test
 
 import (
 	fuzz "github.com/google/gofuzz"
-	"github.com/olympus-protocol/ogen/pkg/p2p"
+	"github.com/eabz/ogen/pkg/p2p"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

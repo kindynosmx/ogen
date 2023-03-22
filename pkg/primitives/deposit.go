@@ -1,9 +1,9 @@
 package primitives
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/bls"
-	"github.com/olympus-protocol/ogen/pkg/bls/common"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/bls"
+	"github.com/eabz/ogen/pkg/bls/common"
+	"github.com/eabz/ogen/pkg/chainhash"
 )
 
 // Deposit is a deposit a user can submit to queue as a validator.

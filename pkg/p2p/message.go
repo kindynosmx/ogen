@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/chainhash"
 )
 
 var (

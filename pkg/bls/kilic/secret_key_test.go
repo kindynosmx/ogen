@@ -1,7 +1,7 @@
 package kilic_test
 
 import (
-	"github.com/olympus-protocol/ogen/pkg/bls/kilic"
+	"github.com/eabz/ogen/pkg/bls/kilic"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/wealdtech/go-bytesutil"

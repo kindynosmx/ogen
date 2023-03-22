@@ -2,7 +2,7 @@ package primitives
 
 import (
 	"github.com/golang/snappy"
-	"github.com/olympus-protocol/ogen/pkg/chainhash"
+	"github.com/eabz/ogen/pkg/chainhash"
 )
 
 // MaxBlockSize defines the maximum bytes on a block object.

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"github.com/dgraph-io/ristretto"
 	"github.com/kilic/bls12-381"
-	"github.com/olympus-protocol/ogen/pkg/bls/common"
+	"github.com/eabz/ogen/pkg/bls/common"
 	"math/big"
 )
 
