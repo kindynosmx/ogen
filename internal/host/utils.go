@@ -3,15 +3,14 @@ package host
 import (
 	"crypto/rand"
 	"fmt"
+	"github.com/eabz/ogen/cmd/ogen/config"
+	"github.com/eabz/ogen/pkg/params"
 	"github.com/libp2p/go-libp2p"
-	circuit "github.com/libp2p/go-libp2p-circuit"
 	connmgr "github.com/libp2p/go-libp2p-connmgr"
 	"github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-core/peerstore"
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/pkg/params"
 	"github.com/pkg/errors"
 	"io/ioutil"
 	"log"
@@ -184,7 +183,7 @@ func buildOptions(priKey crypto.PrivKey, ps peerstore.Peerstore) []libp2p.Option
 		libp2p.UserAgent(fmt.Sprintf("ogen/%s", params.Version)),
 		libp2p.ConnectionManager(connman),
 		libp2p.Peerstore(ps),
-		libp2p.EnableRelay(circuit.OptActive, circuit.OptHop),
+		libp2p.EnableAutoRelay(),
 	}
 
 	return options

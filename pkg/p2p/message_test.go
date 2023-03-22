@@ -2,9 +2,9 @@ package p2p_test
 
 import (
 	"bytes"
-	fuzz "github.com/google/gofuzz"
 	"github.com/eabz/ogen/pkg/p2p"
 	testdata "github.com/eabz/ogen/test"
+	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

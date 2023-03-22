@@ -1,8 +1,8 @@
 package kilic
 
 import (
-	bls12381 "github.com/kilic/bls12-381"
 	"github.com/eabz/ogen/pkg/bls/common"
+	bls12381 "github.com/kilic/bls12-381"
 )
 
 // Signature used in the BLS signature scheme.
@@ -14,8 +14,9 @@ type Signature struct {
 //
 // In IETF draft BLS specification:
 // Verify(PK, message, signature) -> VALID or INVALID: a verification
-//      algorithm that outputs VALID if signature is a valid signature of
-//      message under public key PK, and INVALID otherwise.
+//
+//	algorithm that outputs VALID if signature is a valid signature of
+//	message under public key PK, and INVALID otherwise.
 //
 // In ETH2.0 specification:
 // def Verify(PK: BLSPubkey, message: Bytes, signature: BLSSignature) -> bool
@@ -40,10 +41,11 @@ func (s *Signature) Verify(pubKey common.PublicKey, msg []byte) bool {
 //
 // In IETF draft BLS specification:
 // AggregateVerify((PK_1, message_1), ..., (PK_n, message_n),
-//      signature) -> VALID or INVALID: an aggregate verification
-//      algorithm that outputs VALID if signature is a valid aggregated
-//      signature for a collection of public keys and messages, and
-//      outputs INVALID otherwise.
+//
+//	signature) -> VALID or INVALID: an aggregate verification
+//	algorithm that outputs VALID if signature is a valid aggregated
+//	signature for a collection of public keys and messages, and
+//	outputs INVALID otherwise.
 //
 // In ETH2.0 specification:
 // def AggregateVerify(pairs: Sequence[PK: BLSPubkey, message: Bytes], signature: BLSSignature) -> boo
@@ -81,9 +83,10 @@ func (s *Signature) AggregateVerify(pubKeys []common.PublicKey, msgs [][32]byte)
 //
 // In IETF draft BLS specification:
 // FastAggregateVerify(PK_1, ..., PK_n, message, signature) -> VALID
-//      or INVALID: a verification algorithm for the aggregate of multiple
-//      signatures on the same message.  This function is faster than
-//      AggregateVerify.
+//
+//	or INVALID: a verification algorithm for the aggregate of multiple
+//	signatures on the same message.  This function is faster than
+//	AggregateVerify.
 //
 // In ETH2.0 specification:
 // def FastAggregateVerify(PKs: Sequence[BLSPubkey], message: Bytes, signature: BLSSignature) -> bool

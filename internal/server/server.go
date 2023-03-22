@@ -1,7 +1,6 @@
 package server
 
 import (
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/eabz/ogen/cmd/ogen/config"
 	"github.com/eabz/ogen/internal/blockdb"
 	"github.com/eabz/ogen/internal/chain"
@@ -11,6 +10,7 @@ import (
 	"github.com/eabz/ogen/internal/mempool"
 	"github.com/eabz/ogen/internal/proposer"
 	"github.com/eabz/ogen/pkg/logger"
+	"github.com/ethereum/go-ethereum/rpc"
 	"sync"
 )
 

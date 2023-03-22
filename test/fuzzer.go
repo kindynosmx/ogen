@@ -1,10 +1,10 @@
 package testdata
 
 import (
-	fuzz "github.com/google/gofuzz"
 	"github.com/eabz/ogen/pkg/bitfield"
 	"github.com/eabz/ogen/pkg/bls"
 	"github.com/eabz/ogen/pkg/primitives"
+	fuzz "github.com/google/gofuzz"
 )
 
 // FuzzBlockHeader return a slice with n BlockHeader structs.

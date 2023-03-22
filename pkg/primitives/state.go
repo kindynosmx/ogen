@@ -1,8 +1,8 @@
 package primitives
 
 import (
-	"github.com/golang/snappy"
 	"github.com/eabz/ogen/pkg/bitfield"
+	"github.com/golang/snappy"
 )
 
 // SerializableState is a serializable copy of the state

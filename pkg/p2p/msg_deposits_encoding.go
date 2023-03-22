@@ -3,8 +3,8 @@
 package p2p
 
 import (
-	ssz "github.com/ferranbt/fastssz"
 	"github.com/eabz/ogen/pkg/primitives"
+	ssz "github.com/ferranbt/fastssz"
 )
 
 // MarshalSSZ ssz marshals the MsgDeposits object

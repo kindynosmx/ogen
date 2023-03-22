@@ -2,8 +2,8 @@ package params
 
 import (
 	"fmt"
-	"github.com/libp2p/go-libp2p-core/protocol"
 	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/libp2p/go-libp2p-core/protocol"
 	"math"
 )
 

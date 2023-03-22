@@ -1,9 +1,9 @@
 package kilic
 
 import (
-	bls12381 "github.com/kilic/bls12-381"
 	"github.com/eabz/ogen/pkg/bls/common"
 	"github.com/eabz/ogen/pkg/chainhash"
+	bls12381 "github.com/kilic/bls12-381"
 )
 
 // PublicKey used in the BLS signature scheme.

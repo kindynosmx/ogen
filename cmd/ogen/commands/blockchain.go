@@ -2,13 +2,13 @@ package commands
 
 import (
 	"fmt"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/eabz/ogen/cmd/ogen/config"
 	"github.com/eabz/ogen/cmd/ogen/initialization"
 	"github.com/eabz/ogen/internal/blockdb"
 	"github.com/eabz/ogen/internal/server"
 	"github.com/eabz/ogen/pkg/logger"
 	"github.com/eabz/ogen/pkg/params"
+	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"os"

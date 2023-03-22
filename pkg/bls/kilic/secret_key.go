@@ -1,8 +1,8 @@
 package kilic
 
 import (
-	"github.com/kilic/bls12-381"
 	"github.com/eabz/ogen/pkg/bls/common"
+	"github.com/kilic/bls12-381"
 )
 
 // SecretKey used in the BLS signature scheme.
@@ -20,7 +20,8 @@ func (s *SecretKey) PublicKey() common.PublicKey {
 //
 // In IETF draft BLS specification:
 // Sign(SK, message) -> signature: a signing algorithm that generates
-//      a deterministic signature given a secret key SK and a message.
+//
+//	a deterministic signature given a secret key SK and a message.
 //
 // In ETH2.0 specification:
 // def Sign(SK: int, message: Bytes) -> BLSSignature

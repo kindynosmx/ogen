@@ -3,13 +3,13 @@ package dashboard
 import (
 	"context"
 	"encoding/hex"
-	"github.com/gin-gonic/gin"
-	"github.com/gobuffalo/packr"
 	"github.com/eabz/ogen/cmd/ogen/config"
 	"github.com/eabz/ogen/internal/chain"
 	"github.com/eabz/ogen/internal/host"
 	"github.com/eabz/ogen/internal/proposer"
 	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/gin-gonic/gin"
+	"github.com/gobuffalo/packr"
 	"html/template"
 	"net/http"
 )

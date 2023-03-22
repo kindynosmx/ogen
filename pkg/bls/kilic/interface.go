@@ -4,8 +4,8 @@ import (
 	"crypto/rand"
 	"errors"
 	"github.com/dgraph-io/ristretto"
-	"github.com/kilic/bls12-381"
 	"github.com/eabz/ogen/pkg/bls/common"
+	"github.com/kilic/bls12-381"
 	"math/big"
 )
 

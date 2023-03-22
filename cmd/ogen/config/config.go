@@ -3,7 +3,6 @@ package config
 import (
 	"context"
 	"encoding/hex"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/eabz/ogen/cmd/ogen/initialization"
 	"github.com/eabz/ogen/pkg/bls"
 	"github.com/eabz/ogen/pkg/bls/common"
@@ -11,6 +10,7 @@ import (
 	"github.com/eabz/ogen/pkg/params"
 	"github.com/eabz/ogen/pkg/primitives"
 	testdata "github.com/eabz/ogen/test"
+	"github.com/ethereum/go-ethereum/rpc"
 	"os"
 	"os/signal"
 	"time"

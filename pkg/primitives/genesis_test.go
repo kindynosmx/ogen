@@ -1,8 +1,8 @@
 package primitives_test
 
 import (
-	"github.com/magiconair/properties/assert"
 	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/magiconair/properties/assert"
 	"testing"
 	"time"
 

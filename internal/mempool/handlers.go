@@ -2,8 +2,8 @@ package mempool
 
 import (
 	"errors"
-	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/eabz/ogen/pkg/p2p"
+	"github.com/libp2p/go-libp2p-core/peer"
 )
 
 func (p *pool) handleVote(id peer.ID, msg p2p.Message) error {

@@ -2,12 +2,12 @@ package host
 
 import (
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/libp2p/go-libp2p-core/network"
-	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/eabz/ogen/cmd/ogen/config"
 	"github.com/eabz/ogen/pkg/chainhash"
 	"github.com/eabz/ogen/pkg/logger"
 	"github.com/eabz/ogen/pkg/p2p"
+	"github.com/libp2p/go-libp2p-core/network"
+	"github.com/libp2p/go-libp2p-core/peer"
 	"math/rand"
 	"sync"
 	"time"

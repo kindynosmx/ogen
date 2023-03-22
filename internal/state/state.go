@@ -3,11 +3,11 @@ package state
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/eabz/ogen/cmd/ogen/initialization"
 	"github.com/eabz/ogen/pkg/chainhash"
 	"github.com/eabz/ogen/pkg/params"
 	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 // ValidatorsInfo returns the state validators information.
