@@ -3,7 +3,7 @@
 package p2p
 
 import (
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 	ssz "github.com/ferranbt/fastssz"
 )
 

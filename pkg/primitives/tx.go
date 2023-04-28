@@ -2,10 +2,10 @@ package primitives
 
 import (
 	"errors"
-	"github.com/eabz/ogen/pkg/bls/common"
+	"github.com/kindynosmx/ogen/pkg/bls/common"
 
-	"github.com/eabz/ogen/pkg/bls"
-	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/bls"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
 )
 
 var (

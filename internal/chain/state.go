@@ -3,16 +3,16 @@ package chain
 import (
 	"errors"
 	"fmt"
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/internal/state"
+	"github.com/kindynosmx/ogen/cmd/ogen/config"
+	"github.com/kindynosmx/ogen/internal/state"
 	"sync"
 
-	"github.com/eabz/ogen/internal/blockdb"
-	"github.com/eabz/ogen/internal/chainindex"
-	"github.com/eabz/ogen/pkg/chainhash"
-	"github.com/eabz/ogen/pkg/logger"
-	"github.com/eabz/ogen/pkg/params"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/internal/blockdb"
+	"github.com/kindynosmx/ogen/internal/chainindex"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/logger"
+	"github.com/kindynosmx/ogen/pkg/params"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 )
 
 type stateDerivedFromBlock struct {

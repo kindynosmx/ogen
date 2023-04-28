@@ -1,8 +1,8 @@
 package primitives_test
 
 import (
-	"github.com/eabz/ogen/pkg/primitives"
-	"github.com/eabz/ogen/test"
+	"github.com/kindynosmx/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/test"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

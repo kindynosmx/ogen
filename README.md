@@ -1,9 +1,9 @@
 # Ogen integration/staging tree
 
-[![Go Report](https://goreportcard.com/badge/github.com/eabz/ogen)](https://goreportcard.com/report/github.com/eabz/ogen)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/eabz/ogen?tab=doc)](https://pkg.go.dev/github.com/eabz/ogen?tab=doc)
+[![Go Report](https://goreportcard.com/badge/github.com/kindynosmx/ogen)](https://goreportcard.com/report/github.com/kindynosmx/ogen)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/kindynosmx/ogen?tab=doc)](https://pkg.go.dev/github.com/kindynosmx/ogen?tab=doc)
 
-> Ogen was a divine figure in classical antiquity to be the divine personification of the ocean.
+## **DEPRECATED: use only as a reference.**
 
 Ogen is the main implementation of the Olympus protocol.
 
@@ -22,7 +22,7 @@ Ogen is the main implementation of the Olympus protocol.
 #### Pull the image
 
 ```
-docker pull ghcr.io/eabz/ogen-node:latest
+docker pull ghcr.io/kindynosmx/ogen-node:latest
 ```
 
 #### Run the container
@@ -30,7 +30,7 @@ docker pull ghcr.io/eabz/ogen-node:latest
 > Make sure you replace the LOCAL_HOST_FOLDER on the string to the host folder you want to store your files
 
 ```
-docker run -p 80:8080 -p 81:8081 -d -v LOCAL_HOST_FOLDER:/root/.config/ogen ghcr.io/eabz/ogen-node:latest
+docker run -p 80:8080 -p 81:8081 -d -v LOCAL_HOST_FOLDER:/root/.config/ogen ghcr.io/kindynosmx/ogen-node:latest
 ```
 
 Now you will have a full-node instance running on the background with a dashboard exposed on port 80, and the REST API exposed on 81, and the full-node files are stored on your host on LOCAL_HOST_FOLDER
@@ -42,13 +42,13 @@ Now you will have a full-node instance running on the background with a dashboar
 #### Pull the image
 
 ```
-docker pull ghcr.io/eabz/ogen-node:latest
+docker pull ghcr.io/kindynosmx/ogen-node:latest
 ```
 
 #### Run the container
 
 ```
-docker run -p 80:8080 -p 81:8081 -d ghcr.io/eabz/ogen-full-node:latest
+docker run -p 80:8080 -p 81:8081 -d ghcr.io/kindynosmx/ogen-full-node:latest
 ```
 
 Now you will have a full-node instance running on the background with a dashboard exposed on port 80, and the REST API exposed on 81

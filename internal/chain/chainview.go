@@ -2,10 +2,10 @@ package chain
 
 import (
 	"errors"
-	"github.com/eabz/ogen/internal/state"
+	"github.com/kindynosmx/ogen/internal/state"
 
-	"github.com/eabz/ogen/internal/chainindex"
-	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/internal/chainindex"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
 )
 
 // View is a view of a certain chain in the block tree so that block processing can access valid blocks.

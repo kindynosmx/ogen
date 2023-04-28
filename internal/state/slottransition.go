@@ -1,9 +1,9 @@
 package state
 
 import (
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/pkg/chainhash"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/cmd/ogen/config"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 )
 
 // SetSlot runs a slot transition on state, mutating it.

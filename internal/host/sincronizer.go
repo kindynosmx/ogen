@@ -3,11 +3,11 @@ package host
 import (
 	"context"
 	"errors"
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/internal/chain"
-	"github.com/eabz/ogen/pkg/logger"
-	"github.com/eabz/ogen/pkg/p2p"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/cmd/ogen/config"
+	"github.com/kindynosmx/ogen/internal/chain"
+	"github.com/kindynosmx/ogen/pkg/logger"
+	"github.com/kindynosmx/ogen/pkg/p2p"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"time"
 )

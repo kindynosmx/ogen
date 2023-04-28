@@ -1,10 +1,10 @@
 package primitives_test
 
 import (
-	"github.com/eabz/ogen/pkg/bitfield"
-	"github.com/eabz/ogen/pkg/bls"
-	"github.com/eabz/ogen/pkg/primitives"
-	testdata "github.com/eabz/ogen/test"
+	"github.com/kindynosmx/ogen/pkg/bitfield"
+	"github.com/kindynosmx/ogen/pkg/bls"
+	"github.com/kindynosmx/ogen/pkg/primitives"
+	testdata "github.com/kindynosmx/ogen/test"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

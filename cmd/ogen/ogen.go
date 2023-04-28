@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/eabz/ogen/cmd/ogen/commands"
+	"github.com/kindynosmx/ogen/cmd/ogen/commands"
 	_ "net/http/pprof"
 )
 

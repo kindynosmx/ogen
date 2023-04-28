@@ -3,10 +3,10 @@ package state
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/eabz/ogen/cmd/ogen/initialization"
-	"github.com/eabz/ogen/pkg/chainhash"
-	"github.com/eabz/ogen/pkg/params"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/cmd/ogen/initialization"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/params"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 

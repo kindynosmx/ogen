@@ -1,7 +1,7 @@
 package p2p
 
 import (
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 )
 
 // MaxDeposits define the maximum amount a deposit slice message can contain

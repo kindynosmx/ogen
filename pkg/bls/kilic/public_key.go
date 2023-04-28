@@ -1,8 +1,8 @@
 package kilic
 
 import (
-	"github.com/eabz/ogen/pkg/bls/common"
-	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/bls/common"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
 	bls12381 "github.com/kilic/bls12-381"
 )
 

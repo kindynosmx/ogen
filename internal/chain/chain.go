@@ -3,7 +3,7 @@ package chain
 import (
 	"sync"
 
-	"github.com/eabz/ogen/internal/chainindex"
+	"github.com/kindynosmx/ogen/internal/chainindex"
 )
 
 type Chain struct {

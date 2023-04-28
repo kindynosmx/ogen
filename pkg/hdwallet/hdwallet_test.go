@@ -1,8 +1,8 @@
 package hdwallet_test
 
 import (
-	"github.com/eabz/ogen/pkg/bip39"
-	"github.com/eabz/ogen/pkg/hdwallet"
+	"github.com/kindynosmx/ogen/pkg/bip39"
+	"github.com/kindynosmx/ogen/pkg/hdwallet"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

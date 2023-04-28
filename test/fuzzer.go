@@ -1,9 +1,9 @@
 package testdata
 
 import (
-	"github.com/eabz/ogen/pkg/bitfield"
-	"github.com/eabz/ogen/pkg/bls"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/pkg/bitfield"
+	"github.com/kindynosmx/ogen/pkg/bls"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 	fuzz "github.com/google/gofuzz"
 )
 

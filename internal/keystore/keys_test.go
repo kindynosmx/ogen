@@ -1,8 +1,8 @@
 package keystore_test
 
 import (
-	"github.com/eabz/ogen/internal/keystore"
-	"github.com/eabz/ogen/pkg/bls"
+	"github.com/kindynosmx/ogen/internal/keystore"
+	"github.com/kindynosmx/ogen/pkg/bls"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

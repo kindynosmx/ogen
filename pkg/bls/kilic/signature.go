@@ -1,7 +1,7 @@
 package kilic
 
 import (
-	"github.com/eabz/ogen/pkg/bls/common"
+	"github.com/kindynosmx/ogen/pkg/bls/common"
 	bls12381 "github.com/kilic/bls12-381"
 )
 

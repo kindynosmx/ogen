@@ -3,9 +3,9 @@ package commands
 import (
 	"encoding/hex"
 	"encoding/json"
-	"github.com/eabz/ogen/cmd/ogen/initialization"
-	"github.com/eabz/ogen/internal/keystore"
-	"github.com/eabz/ogen/pkg/bip39"
+	"github.com/kindynosmx/ogen/cmd/ogen/initialization"
+	"github.com/kindynosmx/ogen/internal/keystore"
+	"github.com/kindynosmx/ogen/pkg/bip39"
 	"github.com/spf13/cobra"
 	"io/ioutil"
 	"path"

@@ -2,9 +2,9 @@ package primitives_test
 
 import (
 	"encoding/hex"
-	"github.com/eabz/ogen/pkg/bls"
-	"github.com/eabz/ogen/pkg/primitives"
-	testdata "github.com/eabz/ogen/test"
+	"github.com/kindynosmx/ogen/pkg/bls"
+	"github.com/kindynosmx/ogen/pkg/primitives"
+	testdata "github.com/kindynosmx/ogen/test"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

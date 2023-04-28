@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/eabz/ogen/pkg/bitfield"
-	"github.com/eabz/ogen/pkg/bls/common"
+	"github.com/kindynosmx/ogen/pkg/bitfield"
+	"github.com/kindynosmx/ogen/pkg/bls/common"
 
-	"github.com/eabz/ogen/pkg/bls"
-	"github.com/eabz/ogen/pkg/params"
+	"github.com/kindynosmx/ogen/pkg/bls"
+	"github.com/kindynosmx/ogen/pkg/params"
 
-	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
 )
 
 // AcceptedVoteInfo is vote data and participation for accepted votes.

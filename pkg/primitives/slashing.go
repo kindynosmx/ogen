@@ -1,9 +1,9 @@
 package primitives
 
 import (
-	"github.com/eabz/ogen/pkg/bls"
-	"github.com/eabz/ogen/pkg/bls/common"
-	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/bls"
+	"github.com/kindynosmx/ogen/pkg/bls/common"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
 )
 
 // VoteSlashing is a slashing where validators vote in the span of their other votes.

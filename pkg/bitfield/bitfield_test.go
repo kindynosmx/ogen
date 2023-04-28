@@ -1,7 +1,7 @@
 package bitfield_test
 
 import (
-	"github.com/eabz/ogen/pkg/bitfield"
+	"github.com/kindynosmx/ogen/pkg/bitfield"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -1,11 +1,11 @@
 package blockdb
 
 import (
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/internal/state"
-	"github.com/eabz/ogen/pkg/chainhash"
-	"github.com/eabz/ogen/pkg/logger"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/cmd/ogen/config"
+	"github.com/kindynosmx/ogen/internal/state"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/logger"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 	"github.com/syndtr/goleveldb/leveldb/filter"
 	"sync"
 	"time"

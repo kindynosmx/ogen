@@ -1,9 +1,9 @@
 package chain
 
 import (
-	"github.com/eabz/ogen/internal/chainindex"
-	"github.com/eabz/ogen/internal/state"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/internal/chainindex"
+	"github.com/kindynosmx/ogen/internal/state"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 )
 
 // BlockchainNotifee is a type that is notified when something changes with the blockchain.

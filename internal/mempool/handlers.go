@@ -2,7 +2,7 @@ package mempool
 
 import (
 	"errors"
-	"github.com/eabz/ogen/pkg/p2p"
+	"github.com/kindynosmx/ogen/pkg/p2p"
 	"github.com/libp2p/go-libp2p-core/peer"
 )
 

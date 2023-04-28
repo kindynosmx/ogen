@@ -11,7 +11,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/eabz/ogen/pkg/bip39/wordlists"
+	"github.com/kindynosmx/ogen/pkg/bip39/wordlists"
 	"math/big"
 	"strings"
 

@@ -2,7 +2,7 @@ FROM golang:1.16beta1-buster
 
 WORKDIR /build
 
-RUN git clone https://github.com/eabz/ogen
+RUN git clone https://github.com/kindynosmx/ogen
 
 WORKDIR /build/ogen
 

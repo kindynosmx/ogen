@@ -1,8 +1,8 @@
 package kilic_test
 
 import (
-	"github.com/eabz/ogen/pkg/bls/common"
-	"github.com/eabz/ogen/pkg/bls/kilic"
+	"github.com/kindynosmx/ogen/pkg/bls/common"
+	"github.com/kindynosmx/ogen/pkg/bls/kilic"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

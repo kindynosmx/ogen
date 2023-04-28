@@ -3,8 +3,8 @@ package keystore
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/pkg/bip39"
+	"github.com/kindynosmx/ogen/cmd/ogen/config"
+	"github.com/kindynosmx/ogen/pkg/bip39"
 	"go.etcd.io/bbolt"
 	"path"
 )

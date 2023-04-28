@@ -1,12 +1,12 @@
 package primitives_test
 
 import (
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 	"github.com/magiconair/properties/assert"
 	"testing"
 	"time"
 
-	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
 )
 
 func TestGenesisBlock(t *testing.T) {

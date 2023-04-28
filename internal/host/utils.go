@@ -3,8 +3,8 @@ package host
 import (
 	"crypto/rand"
 	"fmt"
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/pkg/params"
+	"github.com/kindynosmx/ogen/cmd/ogen/config"
+	"github.com/kindynosmx/ogen/pkg/params"
 	"github.com/libp2p/go-libp2p"
 	connmgr "github.com/libp2p/go-libp2p-connmgr"
 	"github.com/libp2p/go-libp2p-core/crypto"

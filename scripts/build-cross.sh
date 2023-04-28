@@ -9,8 +9,8 @@ mv ./ogen ./ogen-$OGEN_VERSION-darwin-10.10-amd64
 
 go get github.com/karalabe/xgo
 
-xgo -pkg cmd/ogen --targets=windows-6.0/amd64,linux/arm64,linux/amd64 -out ogen-$OGEN_VERSION github.com/eabz/ogen
-#xgo -pkg cmd/ogen --targets=windows-6.0/amd64,darwin-10.10/amd64,linux/arm64,linux/amd64 -out ogen-$OGEN_VERSION github.com/eabz/ogen
+xgo -pkg cmd/ogen --targets=windows-6.0/amd64,linux/arm64,linux/amd64 -out ogen-$OGEN_VERSION github.com/kindynosmx/ogen
+#xgo -pkg cmd/ogen --targets=windows-6.0/amd64,darwin-10.10/amd64,linux/arm64,linux/amd64 -out ogen-$OGEN_VERSION github.com/kindynosmx/ogen
 
 mkdir ./$FOLDER_NAME
 mv ogen-$OGEN_VERSION-windows-6.0-amd64.exe ./$FOLDER_NAME/ogen.exe

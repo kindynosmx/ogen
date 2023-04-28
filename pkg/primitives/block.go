@@ -1,7 +1,7 @@
 package primitives
 
 import (
-	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
 	"github.com/golang/snappy"
 )
 

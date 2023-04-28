@@ -1,9 +1,9 @@
 package state
 
 import (
-	"github.com/eabz/ogen/pkg/bls/common"
-	"github.com/eabz/ogen/pkg/chainhash"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/pkg/bls/common"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 )
 
 type State interface {

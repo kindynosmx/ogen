@@ -2,12 +2,12 @@ package commands
 
 import (
 	"fmt"
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/cmd/ogen/initialization"
-	"github.com/eabz/ogen/internal/blockdb"
-	"github.com/eabz/ogen/internal/server"
-	"github.com/eabz/ogen/pkg/logger"
-	"github.com/eabz/ogen/pkg/params"
+	"github.com/kindynosmx/ogen/cmd/ogen/config"
+	"github.com/kindynosmx/ogen/cmd/ogen/initialization"
+	"github.com/kindynosmx/ogen/internal/blockdb"
+	"github.com/kindynosmx/ogen/internal/server"
+	"github.com/kindynosmx/ogen/pkg/logger"
+	"github.com/kindynosmx/ogen/pkg/params"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

@@ -1,7 +1,7 @@
 package p2p
 
 import (
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 )
 
 // MsgPartialExit is the struct of the message the is transmitted upon the network.

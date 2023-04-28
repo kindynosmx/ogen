@@ -1,7 +1,7 @@
 package testdata
 
 import (
-	"github.com/eabz/ogen/pkg/params"
+	"github.com/kindynosmx/ogen/pkg/params"
 )
 
 // TestParams network parameters for test chains.

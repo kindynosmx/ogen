@@ -1,7 +1,7 @@
 package primitives
 
 import (
-	"github.com/eabz/ogen/pkg/bitfield"
+	"github.com/kindynosmx/ogen/pkg/bitfield"
 	"github.com/golang/snappy"
 )
 

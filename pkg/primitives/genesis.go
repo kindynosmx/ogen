@@ -3,7 +3,7 @@ package primitives
 import (
 	"time"
 
-	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
 )
 
 // GetGenesisBlock gets the genesis block for a certain chain parameters.

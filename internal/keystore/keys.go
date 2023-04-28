@@ -3,10 +3,10 @@ package keystore
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/eabz/ogen/pkg/bip39"
-	"github.com/eabz/ogen/pkg/bls"
-	"github.com/eabz/ogen/pkg/bls/common"
-	"github.com/eabz/ogen/pkg/hdwallet"
+	"github.com/kindynosmx/ogen/pkg/bip39"
+	"github.com/kindynosmx/ogen/pkg/bls"
+	"github.com/kindynosmx/ogen/pkg/bls/common"
+	"github.com/kindynosmx/ogen/pkg/hdwallet"
 	"go.etcd.io/bbolt"
 	"strconv"
 )

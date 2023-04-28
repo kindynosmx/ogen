@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/eabz/ogen/internal/chainindex"
-	"github.com/eabz/ogen/pkg/bls"
-	"github.com/eabz/ogen/pkg/chainhash"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/internal/chainindex"
+	"github.com/kindynosmx/ogen/pkg/bls"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 )
 
 type blockRowAndValidator struct {

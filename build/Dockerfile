@@ -1,4 +1,4 @@
-FROM eabz/ogen-builder:latest as build
+FROM kindynosmx/ogen-builder:latest as build
 
 COPY .. /build/ogen
 

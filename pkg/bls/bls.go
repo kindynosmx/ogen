@@ -4,8 +4,8 @@
 package bls
 
 import (
-	"github.com/eabz/ogen/pkg/bls/common"
-	"github.com/eabz/ogen/pkg/bls/kilic"
+	"github.com/kindynosmx/ogen/pkg/bls/common"
+	"github.com/kindynosmx/ogen/pkg/bls/kilic"
 )
 
 var currImplementation = kilic.NewKilicInterface()

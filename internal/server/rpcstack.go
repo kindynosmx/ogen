@@ -20,7 +20,7 @@ import (
 	"compress/gzip"
 	"context"
 	"fmt"
-	"github.com/eabz/ogen/pkg/logger"
+	"github.com/kindynosmx/ogen/pkg/logger"
 	"io"
 	"io/ioutil"
 	"net"

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/eabz/ogen/pkg/chainhash"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 )
 
 // BlockRow represents a single row in the block chainindex.

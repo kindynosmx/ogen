@@ -1,7 +1,7 @@
 package p2p_test
 
 import (
-	"github.com/eabz/ogen/pkg/p2p"
+	"github.com/kindynosmx/ogen/pkg/p2p"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/assert"
 	"testing"

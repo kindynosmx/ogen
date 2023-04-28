@@ -1,4 +1,4 @@
-module github.com/eabz/ogen
+module github.com/kindynosmx/ogen
 
 go 1.20
 

@@ -1,8 +1,8 @@
 package p2p_test
 
 import (
-	"github.com/eabz/ogen/pkg/p2p"
-	testdata "github.com/eabz/ogen/test"
+	"github.com/kindynosmx/ogen/pkg/p2p"
+	testdata "github.com/kindynosmx/ogen/test"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -3,10 +3,10 @@ package chain
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/eabz/ogen/internal/blockdb"
-	"github.com/eabz/ogen/internal/chainindex"
-	"github.com/eabz/ogen/internal/state"
-	"github.com/eabz/ogen/pkg/chainhash"
+	"github.com/kindynosmx/ogen/internal/blockdb"
+	"github.com/kindynosmx/ogen/internal/chainindex"
+	"github.com/kindynosmx/ogen/internal/state"
+	"github.com/kindynosmx/ogen/pkg/chainhash"
 )
 
 func (s *stateService) initializeDatabase(db blockdb.Database, blockNode *chainindex.BlockRow, state state.State) error {

@@ -1,8 +1,8 @@
 package state
 
 import (
-	"github.com/eabz/ogen/pkg/bitfield"
-	"github.com/eabz/ogen/pkg/primitives"
+	"github.com/kindynosmx/ogen/pkg/bitfield"
+	"github.com/kindynosmx/ogen/pkg/primitives"
 )
 
 type voterGroup struct {

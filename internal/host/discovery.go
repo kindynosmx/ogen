@@ -2,9 +2,9 @@ package host
 
 import (
 	"context"
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/pkg/logger"
-	"github.com/eabz/ogen/pkg/params"
+	"github.com/kindynosmx/ogen/cmd/ogen/config"
+	"github.com/kindynosmx/ogen/pkg/logger"
+	"github.com/kindynosmx/ogen/pkg/params"
 	libhost "github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
 	discover "github.com/libp2p/go-libp2p-discovery"

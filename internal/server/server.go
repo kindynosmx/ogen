@@ -1,15 +1,15 @@
 package server
 
 import (
-	"github.com/eabz/ogen/cmd/ogen/config"
-	"github.com/eabz/ogen/internal/blockdb"
-	"github.com/eabz/ogen/internal/chain"
-	"github.com/eabz/ogen/internal/dashboard"
-	"github.com/eabz/ogen/internal/host"
-	"github.com/eabz/ogen/internal/keystore"
-	"github.com/eabz/ogen/internal/mempool"
-	"github.com/eabz/ogen/internal/proposer"
-	"github.com/eabz/ogen/pkg/logger"
+	"github.com/kindynosmx/ogen/cmd/ogen/config"
+	"github.com/kindynosmx/ogen/internal/blockdb"
+	"github.com/kindynosmx/ogen/internal/chain"
+	"github.com/kindynosmx/ogen/internal/dashboard"
+	"github.com/kindynosmx/ogen/internal/host"
+	"github.com/kindynosmx/ogen/internal/keystore"
+	"github.com/kindynosmx/ogen/internal/mempool"
+	"github.com/kindynosmx/ogen/internal/proposer"
+	"github.com/kindynosmx/ogen/pkg/logger"
 	"github.com/ethereum/go-ethereum/rpc"
 	"sync"
 )
